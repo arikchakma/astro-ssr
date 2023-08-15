@@ -1,0 +1,7 @@
+---
+const {name} = Astro.params;
+const number = Math.random();
+
+export const prerender = false;
+---
+<h1>{name}: {number}</h1>
